@@ -42,7 +42,8 @@
 #define AUTHORS \
   proper_name ("Paul Rubin"), \
   proper_name ("David MacKenzie"), \
-  proper_name ("Stuart Kemp")
+  proper_name ("Stuart Kemp"), \
+  proper_name ("Wayne Thornton")
 
 /* Use SA_NOCLDSTOP as a proxy for whether the sigaction machinery is
    present.  */
@@ -557,9 +558,11 @@ Copy a file, converting and formatting according to the operands.\n\
   ibs=BYTES       read up to BYTES bytes at a time (default: 512)\n\
 "), stdout);
       fputs (_("\
+  source=FILE     read from FILE instead of stdin\n\
   if=FILE         read from FILE instead of stdin\n\
   iflag=FLAGS     read as per the comma separated symbol list\n\
   obs=BYTES       write BYTES bytes at a time (default: 512)\n\
+  dest=FILE       write to FILE instead of stdout\n\
   of=FILE         write to FILE instead of stdout\n\
   oflag=FLAGS     write as per the comma separated symbol list\n\
   seek=N          (or oseek=N) skip N obs-sized output blocks\n\
@@ -1505,8 +1508,12 @@ scanargs (int argc, char *const *argv)
         }
       val++;
 
-      if (operand_is (name, "if"))
+      if (operand_is (name, "source"))
         input_file = val;
+      else if (operand_is (name. "if"))
+        input_file = val;
+      else if (operand_is (name, "dest"))
+        output_file = val;
       else if (operand_is (name, "of"))
         output_file = val;
       else if (operand_is (name, "conv"))

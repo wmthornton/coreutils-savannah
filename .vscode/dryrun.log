@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/wmthornton/Downloads/coreutils-savannah'
+make: Leaving directory '/home/wmthornton/Downloads/coreutils-savannah'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
