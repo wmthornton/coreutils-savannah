@@ -1510,7 +1510,7 @@ scanargs (int argc, char *const *argv)
 
       if (operand_is (name, "source"))
         input_file = val;
-      else if (operand_is (name. "if"))
+      else if (operand_is (name, "if"))
         input_file = val;
       else if (operand_is (name, "dest"))
         output_file = val;
