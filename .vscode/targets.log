@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  8 15:36:51 2022
+# Make data base, printed on Thu Jun  9 12:56:30 2022
 
 # Variables
 
@@ -17,11 +17,15 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-66671e95-6332-43b0-9a43-ac89ae713624.sock
+SSH_AGENT_LAUNCHER = openssh
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dd3a3079-0fd4-43ff-b332-a046b1811f6a.sock
 # environment
 VSCODE_CWD = /home/wmthornton
 # environment
-LESS_TERMCAP_me = [0m
+GDM_LANG = en_US.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
@@ -33,13 +37,9 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/wmthornton/Downloads/coreutils-savannah
+PWD = /home/wmthornton/.source/coreutils
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-XDG_DATA_DIRS = /usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
-# environment
-OLDPWD = /home/wmthornton
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -49,25 +49,17 @@ VSCODE_LOG_STACK = false
 # environment
 VSCODE_CODE_CACHE_PATH = /home/wmthornton/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
-# environment
 LANG = C
 # environment
-POWERSHELL_UPDATECHECK = Off
-# environment
-XAUTHORITY = /home/wmthornton/.Xauthority
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.A2ZHN1
 # default
 .LOADED := 
-# environment
-LESS_TERMCAP_md = [1;36m
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # makefile
 MAKEFLAGS = pqrR
-# environment
-LESS_TERMCAP_so = [01;33m
 # makefile
-CURDIR := /home/wmthornton/Downloads/coreutils-savannah
+CURDIR := /home/wmthornton/.source/coreutils
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -75,19 +67,17 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-LESS_TERMCAP_ue = [0m
-# environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXj9iyRn/agent.806
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
 # environment
-XDG_CONFIG_DIRS = /etc/xdg
+WAYLAND_DISPLAY = wayland-0
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-XDG_SESSION_DESKTOP = lightdm-xsession
+XDG_SESSION_DESKTOP = gnome
 # makefile
 MAKEFILE_LIST := 
 # automatic
@@ -95,17 +85,15 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 609260
+VSCODE_PID = 260967
 # environment
-XDG_SESSION_TYPE = x11
+XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/MacBook-Pro:@/tmp/.ICE-unix/806,unix/MacBook-Pro:/tmp/.ICE-unix/806
+SESSION_MANAGER = local/debian:@/tmp/.ICE-unix/1296,unix/debian:/tmp/.ICE-unix/1296
 # automatic
 *F = $(notdir $*)
-# environment
-QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
@@ -116,58 +104,66 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # makefile
 SHELL = /bin/sh
-# environment
-LESS_TERMCAP_us = [1;32m
 # default
 MAKECMDGOALS := all
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
 SHLVL = 0
 # environment
 MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/wmthornton/.dotnet/tools
-# environment
-LESS_TERMCAP_se = [0m
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 # default
 MAKEFILES := 
 # automatic
 ^F = $(notdir $^)
 # environment
-COMMAND_NOT_FOUND_INSTALL_PROMPT = 1
-# environment
-LESS_TERMCAP_mb = [1;31m
+INVOCATION_ID = 0bd3e7ce1f3b43f684cb92dc03aa3104
 # environment
 VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = wmthornton
+# environment
+GNOME_SETUP_DISPLAY = :1
 # automatic
 ?F = $(notdir $?)
 # environment
-XDG_SEAT = seat0
+NO_PROXY = 127.0.0.1
 # environment
-XDG_CURRENT_DESKTOP = XFCE
+XDG_CURRENT_DESKTOP = GNOME
 # environment
-LS_COLORS = :ow=30;44:
+LS_COLORS = 
 # automatic
 +F = $(notdir $+)
 # environment
-XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+DESKTOP_SESSION = gnome
 # environment
-DESKTOP_SESSION = lightdm-xsession
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = wmthornton
 # environment
-XDG_VTNR = 7
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+PLATFORMIO_PATH = /home/wmthornton/.platformio/python3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 # makefile
 .DEFAULT_GOAL := 
 # environment
-DISPLAY = :0.0
+DISPLAY = :0
 # environment
 USER = wmthornton
 # environment
@@ -175,49 +171,45 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-SSH_AGENT_PID = 856
+MANAGERPID = 1148
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 260967
 # environment
 _ = /usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-POWERSHELL_TELEMETRY_OPTOUT = 1
+JOURNAL_STREAM = 8:21792
 # environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
+PLATFORMIO_IDE = 2.4.3
+# environment
 HOME = /home/wmthornton
 # environment
-_JAVA_OPTIONS = -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-40e656f4-1.67.2-main.sock
 # environment
-XDG_SESSION_ID = 2
-# environment
-PANEL_GDK_CORE_DEVICE_EVENTS = 0
-# environment
-DOTNET_CLI_TELEMETRY_OPTOUT = 1
+IM_CONFIG_PHASE = 1
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # default
 SUFFIXES := 
-# environment
-QT_AUTO_SCREEN_SCALE_FACTOR = 0
-# environment
-XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/wmthornton
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-XDG_MENU_PREFIX = xfce-
+XDG_MENU_PREFIX = gnome-
 # environment
-GDMSESSION = lightdm-xsession
+GDMSESSION = gnome
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=10/129=8%
+# Load=98/1024=10%, Rehash=0, Collisions=5/125=4%
 
 # Pattern-specific Variable Values
 
@@ -225,7 +217,7 @@ GDMSESSION = lightdm-xsession
 
 # Directories
 
-# . (device 65024, inode 7873602): 45 files, no impossibilities.
+# . (device 65024, inode 6422582): 45 files, no impossibilities.
 
 # 45 files, no impossibilities in 1 directories.
 
@@ -283,6 +275,6 @@ GNUmakefile:
 # strcache performance: lookups = 56 / hit rate = 5%
 # hash-table stats:
 # Load=53/8192=1%, Rehash=0, Collisions=1/56=2%
-# Finished Make data base on Wed Jun  8 15:36:51 2022
+# Finished Make data base on Thu Jun  9 12:56:30 2022
 
  

@@ -43,7 +43,8 @@
   proper_name ("Paul Rubin"), \
   proper_name ("David MacKenzie"), \
   proper_name ("Stuart Kemp"), \
-  proper_name ("Wayne Thornton")
+  proper_name ("Wayne Thornton"), \
+  proper_name ("Adam Brisebois")
 
 /* Use SA_NOCLDSTOP as a proxy for whether the sigaction machinery is
    present.  */
