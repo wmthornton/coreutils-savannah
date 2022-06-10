@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  9 12:56:30 2022
+# Make data base, printed on Fri Jun 10 12:35:11 2022
 
 # Variables
 
@@ -17,13 +17,13 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-SSH_AGENT_LAUNCHER = openssh
-# environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dd3a3079-0fd4-43ff-b332-a046b1811f6a.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0ca4ccef-f736-4d27-a6c9-57209669be33.sock
 # environment
 VSCODE_CWD = /home/wmthornton
+# environment
+WINDOWPATH = 2
 # environment
 GDM_LANG = en_US.UTF-8
 # default
@@ -40,6 +40,8 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 PWD = /home/wmthornton/.source/coreutils
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share/:/usr/share/
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -47,11 +49,11 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/wmthornton/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = /home/wmthornton/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.A2ZHN1
+XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .LOADED := 
 # default
@@ -72,8 +74,6 @@ MFLAGS = -pqrR
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
-# environment
-WAYLAND_DISPLAY = wayland-0
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
@@ -85,13 +85,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 260967
+VSCODE_PID = 11247
 # environment
-XDG_SESSION_TYPE = wayland
+XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/debian:@/tmp/.ICE-unix/1296,unix/debian:/tmp/.ICE-unix/1296
+SESSION_MANAGER = local/debian:@/tmp/.ICE-unix/1606,unix/debian:/tmp/.ICE-unix/1606
 # automatic
 *F = $(notdir $*)
 # environment
@@ -120,8 +120,6 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 SHLVL = 0
 # environment
 MAKELEVEL := 0
-# environment
-IM_CONFIG_CHECK_ENV = 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
@@ -131,13 +129,11 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = 0bd3e7ce1f3b43f684cb92dc03aa3104
+INVOCATION_ID = 69340a368e6c465a91b32046f9f44323
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = wmthornton
-# environment
-GNOME_SETUP_DISPLAY = :1
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -163,7 +159,7 @@ PLATFORMIO_PATH = /home/wmthornton/.platformio/python3/bin:/usr/local/bin:/usr/b
 # makefile
 .DEFAULT_GOAL := 
 # environment
-DISPLAY = :0
+DISPLAY = :1
 # environment
 USER = wmthornton
 # environment
@@ -171,15 +167,19 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1148
+MANAGERPID = 1381
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 260967
+GIO_LAUNCHED_DESKTOP_FILE_PID = 11247
+# environment
+SSH_AGENT_PID = 1563
 # environment
 _ = /usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:21792
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:23981
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -193,7 +193,7 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-40e656f4-1.67.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-40e656f4-1.68.0-main.sock
 # environment
 IM_CONFIG_PHASE = 1
 # default
@@ -217,7 +217,7 @@ GDMSESSION = gnome
 
 # Directories
 
-# . (device 65024, inode 6422582): 45 files, no impossibilities.
+# . (device 65024, inode 6556118): 45 files, no impossibilities.
 
 # 45 files, no impossibilities in 1 directories.
 
@@ -275,6 +275,6 @@ GNUmakefile:
 # strcache performance: lookups = 56 / hit rate = 5%
 # hash-table stats:
 # Load=53/8192=1%, Rehash=0, Collisions=1/56=2%
-# Finished Make data base on Thu Jun  9 12:56:30 2022
+# Finished Make data base on Fri Jun 10 12:35:11 2022
 
  

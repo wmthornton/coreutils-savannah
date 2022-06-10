@@ -11,6 +11,7 @@
 .gdb-history
 .kludge-stamp
 .version
+/.vscode
 /ABOUT-NLS
 /ChangeLog
 /GNUmakefile
