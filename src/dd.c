@@ -14,7 +14,7 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
-/* Written by Paul Rubin, David MacKenzie, and Stuart Kemp. */
+/* Written by Paul Rubin, David MacKenzie, Stuart Kemp & Wayne Thornton. */
 
 #include <config.h>
 
