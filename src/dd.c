@@ -374,7 +374,7 @@ static struct symbol_value const statuses[] =
   {"none",	STATUS_NONE},
   {"noxfer",	STATUS_NOXFER},
   {"progress",	STATUS_PROGRESS},
-  {"",		0}
+  {"",		4} // Dirty hack to enable progress output when no flag supplied. Normally '0'
 };
 
 /* Translation table formed by applying successive transformations. */
